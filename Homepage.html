@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gun Deaths in America</title>
+    <link   rel="stylesheet" 
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous">
+    <link   rel="stylesheet" 
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
+            integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+            crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous">
+    </script>
+    <link   rel="stylesheet" 
+            href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand no-margins" href="Homepage.html">Gun Deaths in America</a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="comparison.html">
+                        <span class="glyphicon glyphicon-transfer">
+                        </span>
+                        Plot Comparison
+                    </a></li>
+                    <li><a href="data.html">
+                        <span class="glyphicon glyphicon-th">
+                        </span>
+                        Data
+                    </a></li> 
+                    <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Mass.html">Mass Shootings</a></li>
+                                <li><a href="Schools.html">School Shootings</a></li>
+                                <li><a href="Intent.html">Intent</a></li>
+                                <li><a href="Firearms.html">Firearms</a></li>
+                            </ul>
+                            </li>
+                </ul>
+                </div>
+            </div>
+            </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-8 border">
+                <h1>Gun Deaths in America: Let's Explore...</h1>
+                <p class=border>
+                    <img src="https://static01.nyt.com/images/2016/01/08/opinion/08guns/08guns-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt="American People vs. Guns">
+                    </br>
+                    </br>
+                    "Gun Deaths in America" examines data from various sources such as <a href="https://www.cdc.gov/"> (CDC)</a> The Center for Disease Control, 
+                    <a href="https://www.kaggle.com/"> Kaggle</a>, 
+                    <a href="https://gssdataexplorer.norc.org/"> GSS </a>Data Explorer, 
+                    <a href="https://www.fbi.gov/services/cjis/ucr"> FBI </a>Uniform Crime Report, 
+                    <a href="https://www.atf.gov/"> (ATF)</a>The Bureau of Alcohol, Tobacco, Firearms and Explosives, 
+                    and the US<a href="https://www.census.gov/"> Census Bureau </a>.
+                    </br>
+                    </br>
+                    Explore this site to get an inside look into what accounts for the most gun related deaths in America. There
+                    are many questions to be answered such as: 
+                    "Do certain socio-economic factors play into gun violence?", 
+                    "Has gun ownership increased?", and 
+                    "What was the intent?"
+
+                    </br>
+                    </br>
+                    <img src="https://github.com/SarahLewk/Web_Visualization_Dashboard_Gun_Control/blob/master/Resources/Figures/Coordinates_Figures/shooting_map_2018.png?raw=true" alt="2018 Mass Shootings">
+                    </br>
+                    </br>
+                    With the use of
+                    <a href="https://matplotlib.org/">matplotlib</a>,
+                    I am able to provide some informative visualizations to help translate the raw data.
+                    </br>
+                    This information can be interpreted in many ways. Some will see this data and think that guns are not the problem,
+                    and that there are other circumstances leading up to these tragic outcomes such as mental health, but are they right? Take a look at these
+                    visualizations and draw your own conclusion.
+                    </br>
+                    </br>
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-12 border">
+                <h2>Visualizations</h2>
+                <div class="btn-group-vertical">
+                        <a  target="_blank" href="Mass.html" 
+                            class="btn btn-info" role="button">
+                            Mass Shootings
+                        </a>
+                        <a  target="_blank" href="Schools.html" 
+                            class="btn btn-info" role="button">
+                            School Shootings
+                        </a>
+                        <a  target="_blank" href="Intent.html" 
+                            class="btn btn-info" role="button">
+                            Intent
+                        </a>
+                        <a  target="_blank" href="Fireams.html" 
+                            class="btn btn-info" role="button">
+                            Firearms
+                        </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
