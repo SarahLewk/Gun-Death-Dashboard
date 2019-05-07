@@ -1,7 +1,7 @@
 # Homework
 
 ## Broken Link:
- https://SarahLewk.github.io/Gun-Death-Dashboard/index.html
+ https://sarahlewk.github.io/Gun-Death-Dashboard/index
 
 
 ## Working Link:
