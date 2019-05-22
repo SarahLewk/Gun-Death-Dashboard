@@ -1,4 +1,4 @@
-# Dashboard Visualization Homework 
+# Dashboard Visualization
 Utilizing html, css, and bootstrap
 
 I decided to go for the bonus and use data from Project 1 
